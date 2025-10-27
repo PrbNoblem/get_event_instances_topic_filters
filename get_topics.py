@@ -149,7 +149,6 @@ if __name__ == "__main__":
         if len(topics) > 0:
             for t in topics:
                 print(t)
-            print(f"num topic filters: {len(topics)}")
         else:
             print("Could not find any topics")
     except requests.RequestException as e:
